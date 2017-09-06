@@ -1,0 +1,1 @@
+cmd_/home/wuhao/jitter/kernelspace/module/jitter_device.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/wuhao/jitter/kernelspace/module/jitter_device.ko /home/wuhao/jitter/kernelspace/module/jitter_device.o /home/wuhao/jitter/kernelspace/module/jitter_device.mod.o
